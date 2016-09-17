@@ -15,7 +15,6 @@ set $mod Mod4
 # is used in the bar {} block below.
 #font pango:monospace 8
 
-
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -32,7 +31,6 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-
 
 # kill focused window
 #bindsym $mod+Shift+a kill
@@ -164,25 +162,20 @@ bindsym $mod+r mode "resize"
 # is used in the bar {} block below.
 font pango:Noto Mono Regular 12
 
-
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec dmenu_run
 bindsym $mod+d exec dmenu_run -fn 'NotoMonoRegular:bold:pixelsize=18' 
 
 # start alternative menu j4-dmenu based on desktop files in /usr/share/applications
-
 bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'DroidSansMono:bold:pixelsize=16' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#FFAF00'"
 
+# start up i3-dmenu-desktop
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
-
 
 #if dualscreen is on
 
@@ -190,14 +183,13 @@ bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'DroidSansMono:bol
 # use xrandr to know the names of your monitors
 # use this line to tell which monitor is on the right
 # xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
-# there is a script at the beginning that covers the dual monitors
 
+# my current setup
+set $firstMonitor DVI-I-1
+set $secondMonitor DVI-I-2
 
 #set $firstMonitor DVI-I-2
 #set $secondMonitor VGA-0
-
-set $firstMonitor DVI-I-1
-set $secondMonitor DVI-I-2
 
 #set $firstMonitor DVI-I-2
 #set $secondMonitor DVI-I-3
@@ -226,12 +218,12 @@ workspace 10 output $secondMonitor
 #bindsym --whole-window $mod+button2 kill
 
 # The right button toggles floating
-bindsym button3 floating toggle
-bindsym $mod+button3 floating toggle
+#bindsym button3 floating toggle
+#bindsym $mod+button3 floating toggle
 
 # The side buttons move the window around
-bindsym button9 move left
-bindsym button8 move right
+#bindsym button9 move left
+#bindsym button8 move right
 
 
 ## Assign section
@@ -239,9 +231,11 @@ assign [class="Firefox"]          → 1
 assign [class="sublime-text"]     → 2
 assign [class="sublime_text"]     → 2
 assign [class="Sublime_text"]     → 2
+assign [class="Vlc"]              → 7
 assign [class="Thunar"]           → 8
 assign [class="Nemo"]             → 8
 assign [class="Geary"]            → 9
+assign [class="Evolution"]        → 9
 assign [class="Spotify"]          → 10
 
 for_window [class="Firefox"] focus
@@ -251,8 +245,9 @@ for_window [class="Firefox"] focus
 
 #background applications
 
-#variety is taking care of rotating wallpapers
-#exec nitrogen --restore
+# variety and feh are taking care of rotating wallpapers
+# start variety and set it up to start with the system
+# num lock activated
 exec_always --no-startup-id numlockx on
 
 
@@ -274,7 +269,6 @@ for_window [class="Xfburn"] floating enable
 for_window [class="Xfce4-appfinder"] floating enable
 for_window [class="Wine"] floating enable
 for_window [class="Pavucontrol"] floating enable
-for_window [class="CopyAgent"] floating enable
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
@@ -290,9 +284,6 @@ for_window [class="Galculator"] floating enable
 for_window [class="Usb-creator-gtk"] floating enable
 for_window [class="MintUpdate.py"] floating enable
 #for_window [class="Bleachbit"] floating enable
-
-
-
 for_window [class="Hexchat"] floating disable
 
 #start tray applications
@@ -300,51 +291,48 @@ exec --no-startup-id nm-applet
 #exec dropbox start
 exec variety
 exec mintupdate-launcher
-#exec cinnamon-sound-applet
+exec volti
 
 
 #workspace related applications (use --no-startup-id if needed)
 
 exec firefox
 exec subl
-#exec geary
-exec spotify
-#exec thunar
-
-# copy paste this in terminal  
-# gsettings set org.nemo.desktop show-desktop-icons false
-# else nemo will still open a desktop
-
+#exec evolution
+exec spotify 
 exec nemo --no-desktop
+exec ~/.config/i3/start-conkys.sh
 
 #Popups during fullscreen mode
 popup_during_fullscreen smart
 
-
 #personal app launchers
-
-#Filemanagers
-#bindsym $mod+Shift+Return exec thunar
-bindsym $mod+Shift+Return exec nemo --no-desktop
-
-
 
 #F1-F12
 #mod1 = ALT
 bindsym control+mod1+f exec firefox 
 bindsym control+mod1+g exec geary
+bindsym control+mod1+e exec evolution
 bindsym control+mod1+s exec spotify
 bindsym control+mod1+t exec subl
-#bindsym control+mod1+b exec thunar
 bindsym control+mod1+b exec nemo --no-desktop
 bindsym control+mod1+c exec catfish
 bindsym control+mod1+m exec gnome-system-monitor
+
+#Filemanagers
+bindsym $mod+Shift+Return exec nemo --no-desktop
+
+# cinnamon settings
 bindsym control+mod1+n exec cinnamon-settings
 
 #Variety keybindings
+# trash wallpaper
 bindsym mod1+t exec variety -t
+# next wallpaper
 bindsym mod1+n exec variety -n
+# previous wallpaper
 bindsym mod1+p exec variety -p
+# favorite wallpaper
 bindsym mod1+f exec variety -f
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
@@ -366,15 +354,13 @@ bindsym $mod+Pause mode "$mode_system"
 
 # Screen Shots
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
-
+bindsym Control+Print exec gnome-screenshot -i
 
 # next/previous workspace
 
 bindsym Mod1+Tab workspace next
 bindsym Mod1+Shift+Tab workspace prev
 bindsym $mod+Tab workspace back_and_forth
-
-
 
 
 # audio - Spotify
@@ -386,9 +372,6 @@ bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer
 bindsym XF86AudioNext exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next" 
 bindsym XF86AudioPrev exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
 bindsym XF86AudioStop exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Stop"
-
-
-
 
 # bar toggle, hide or show 
 bindsym $mod+b bar mode toggle
@@ -438,7 +421,7 @@ client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 ###################  I 3  G A P S  N E X T   ##############################
 ###########################################################################
 # Settings for I3 next gap git
-# https://github.com/Airblader/i3/tree/gaps-next
+# https://github.com/Airblader/i3
 
 for_window [class="^.*"] border pixel 5
 gaps inner 5
@@ -447,10 +430,54 @@ gaps outer 5
 #smart_borders on
 
 
+###########################################################################
+###################       I3 GAPS CHANGE     ##############################
+###########################################################################
+
+
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+
 
 ###########################################################################
 ###################       C O M P T O N      ##############################
 ###########################################################################
 #if you want transparency on non-focused windows
 exec_always compton --config ~/.config/i3/compton.conf
-#new_window pixel
+
+

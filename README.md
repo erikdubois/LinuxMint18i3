@@ -12,7 +12,7 @@ or desribed in this youtube movie
 https://www.youtube.com/watch?v=5db66Dt0j4E
 
 
-![Screenshots](http://i.imgur.com/l0Ecx5O.png)
+![Screenshots](http://i.imgur.com/QSggN1G.jpg)
 
 
 

@@ -1,4 +1,4 @@
-# Installing i3 wm on Linux Mint 18 Cinnamon
+# Installing i3 improved tiling windows manager on Linux Mint 18 Cinnamon
 
 We start from an up-to-date Linux Mint 18 Cinnamon as described on 
 http://erikdubois.be.
@@ -7,7 +7,7 @@ As described here at this github.
 
 https://github.com/erikdubois/Ultimate-Linux-Mint-18-Cinnamon
 
-or desribed in this youtube movie
+or described in this youtube movie
 
 https://www.youtube.com/watch?v=5db66Dt0j4E
 
@@ -41,6 +41,8 @@ This folder your are downloading is my content of the hidden .i3 directory, wher
 
 
 # Step 0
+
+Check what I3 is on the website https://i3wm.org.
 
 
 You can copy/paste all of this in the hidden folder of .i3.

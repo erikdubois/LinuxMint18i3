@@ -1,0 +1,6 @@
+#icons
+
+git clone https://github.com/horst3180/Vertex-Icons.git
+
+echo "copy/paste the Vertex-icons directory in .icons"
+echo "open lxappearance via shortcut  mod + d in i3"

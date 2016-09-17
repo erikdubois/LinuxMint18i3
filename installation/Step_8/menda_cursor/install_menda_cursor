@@ -1,0 +1,7 @@
+# https://github.com/anexation/menda-cursor
+
+git clone https://github.com/anexation/menda-cursor
+
+#copy/paste folder in the hidden folder .icons
+#with lxappearance you select the cursor in i3 
+#you can set it now in linux mint too system settings

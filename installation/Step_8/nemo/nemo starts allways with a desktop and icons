@@ -1,0 +1,7 @@
+# nemo starts allways with a desktop and icons
+# in i3 you do not want that
+# copy/paste in terminal
+# not sure which of the two did the trick - upon next installation we will update it
+
+#gsettings set org.gnome.desktop.background show-desktop-icons false
+gsettings set org.nemo.desktop show-desktop-icons false

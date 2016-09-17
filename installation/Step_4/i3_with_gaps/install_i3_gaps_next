@@ -1,0 +1,41 @@
+#!/bin/bash -x
+#======================================================================================
+#
+#                                       
+# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
+# MMm----::-://////////////oymNMd+`     
+# MMd      /++                -sNMd:    
+# MMNso/`  dMM    `.::-. .-::.` .hMN:   
+# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm   
+#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM   
+#     NMm  dMM  -MMm  `MMM   dMM. dMM   
+#     NMm  dMM  -MMm  `MMM   dMM. dMM   
+#     NMm  dMM  .mmd  `mmm   yMM. dMM   
+#     NMm  dMM`  ..`   ...   ydm. dMM   
+#     hMM- +MMd/-------...-:sdds  dMM   
+#     -NMm- :hNMNNNmdddddddddy/`  dMM   
+#      -dMNs-``-::::-------.``    dMM   
+#       `/dMNmy+/:-------------:/yMMM  
+#          ./ydNMMMMMMMMMMMMMMMMMMMMM  
+#             \.MMMMMMMMMMMMMMMMMMM    
+#                                      
+#
+#
+#======================================================================================
+
+# sudo apt-get install git
+
+sudo apt-get install build-essential
+git clone https://github.com/Airblader/i3.git /tmp/Airblader
+cd /tmp/Airblader
+make && sudo make install
+
+echo "########################################"
+echo "########    R E B O O T        #########"
+echo "########################################"
+
+
+
+echo "########################################"
+echo "########    T H E   E N D      #########"
+echo "########################################"

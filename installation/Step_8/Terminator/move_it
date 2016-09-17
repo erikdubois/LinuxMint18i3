@@ -1,0 +1,6 @@
+#!/bin/bash
+# copy folder to original folder
+mkdir ~/.config/terminator
+
+rm -r ~/.config/terminator/*
+cp -r ./terminator/* ~/.config/terminator/

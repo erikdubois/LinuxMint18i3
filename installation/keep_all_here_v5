@@ -1,0 +1,91 @@
+#!/bin/bash
+#======================================================================================
+#
+#                                       
+# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
+# MMm----::-://////////////oymNMd+`     
+# MMd      /++                -sNMd:    
+# MMNso/`  dMM    `.::-. .-::.` .hMN:   
+# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm   
+#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM   
+#     NMm  dMM  -MMm  `MMM   dMM. dMM   
+#     NMm  dMM  -MMm  `MMM   dMM. dMM   
+#     NMm  dMM  .mmd  `mmm   yMM. dMM   
+#     NMm  dMM`  ..`   ...   ydm. dMM   
+#     hMM- +MMd/-------...-:sdds  dMM   
+#     -NMm- :hNMNNNmdddddddddy/`  dMM   
+#      -dMNs-``-::::-------.``    dMM   
+#       `/dMNmy+/:-------------:/yMMM  
+#          ./ydNMMMMMMMMMMMMMMMMMMMMM  
+#             \.MMMMMMMMMMMMMMMMMMM    
+#                                      
+#
+#
+#======================================================================================
+
+#======================================================================================
+#                               I3 IMPROVED TILING
+# 
+# Author  : Erik Dubois at http://www.erikdubois.be
+# License : Distributed under the terms of GNU GPL version 2 or later
+# 
+# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
+#======================================================================================
+#                               
+# Interesting Sources : 
+#
+#
+#======================================================================================
+
+
+###############################################
+########  I3 K E E P  I T  L O C A L ##########
+###############################################
+# This file is an attempt to keep all necessary information on github
+# for easy installation on an other computer
+# Copy/paste line per line in terminal
+
+
+			# I 3  B L O C K S #
+
+#use of i3blocks for bar 
+# no longer necessary - config file points to this document
+# ln -s ~/.i3/.i3blocks.conf ~/.i3blocks.conf
+
+			# L X  A P P E A R A N C E #
+
+#lxappearance will change two files - back these up to have them for later
+# these files can be found in the installation folder
+# making links DOES NOT SEEM  to work - they are overwritten when changing the look
+
+rm ~/.gtkrc-2.0
+ln -s ~/.i3/.gtkrc-2.0 ~/.gtkrc-2.0 
+
+rm ~/.config/gtk-3.0/settings.ini
+ln -s ~/.i3/settings.ini ~/.config/gtk-3.0/settings.ini
+
+
+			#  Z S H #
+
+rm ~/.zshrc
+ln -s ~/.i3/.zshrc ~/.zshrc
+
+# zsh login
+ln -s ~/.i3/.zlogin ~/.zlogin
+
+
+#zsh profile
+ln -s ~/.i3/.zprofile ~/.zprofile
+
+
+
+			# B A S H R C #
+
+#obsolete if you use zsh
+# want to try the vanilla version - colors
+# https://github.com/szaydel/Rigel-Major/blob/master/config-files/vanilla.bashrc
+rm ~/.bashrc
+ln -s ~/.i3/.bashrc ~/.bashrc
+
+
+

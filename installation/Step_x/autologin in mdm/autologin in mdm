@@ -1,0 +1,21 @@
+gui way
+is go to linux mint cinnamon
+and type "login"
+
+choose login window 
+type password
+and change settings in autologin
+select enable automatic login  and choose user
+
+
+This will change the settings
+
+in 
+
+/etc/mdm/mdm.conf
+
+[daemon]
+
+AutomaticLoginEnable=true
+
+AutomaticLogin=erik

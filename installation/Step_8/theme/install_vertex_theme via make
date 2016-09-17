@@ -1,0 +1,20 @@
+# theme
+
+git clone https://github.com/horst3180/vertex-theme --depth 1 && cd vertex-theme
+
+sudo apt-get install autoconf -y
+
+sudo apt-get install automake -y
+
+sudo apt-get install build-essential
+
+./autogen.sh --prefix=/usr
+sudo make install
+
+
+#icons
+
+git clone https://github.com/horst3180/Vertex-Icons.git
+
+echo "copy/paste the Vertex-icons directory in .icons"
+echo "open lxappearance via shortcut  mod + d"

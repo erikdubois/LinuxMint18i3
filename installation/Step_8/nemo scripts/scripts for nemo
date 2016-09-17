@@ -1,0 +1,10 @@
+With a right-click on nemo you can start any script you put in a specific folder
+I have a few in the folder.
+
+The location of the scripts has changed in the newer version (may 2015).
+
+I will keep this link up-to-date.
+
+https://github.com/erikdubois/UltimateLinuxMint17_1
+
+"Move the content of the folder nemo-scripts to the hidden folder ~/.gnome2/nemo-scripts/ and change to your liking. These are quick fixes and one backup script to a Backup folder. But if you are using the latest nemo you have to place them in your home folder in ~/local/share/nemo/scripts. Nemo has an extra menu "Plugins"."

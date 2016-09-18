@@ -9,9 +9,13 @@ As described here at [this github](https://github.com/erikdubois/Ultimate-Linux-
 
 or described in [this youtube movie](https://www.youtube.com/watch?v=5db66Dt0j4E).
 
-You will end up with all the needed icons and application we will use in the I3 tutorials.
+You will end up with all the needed icons and applications we will use in the I3 tutorials.
 
 ![Screenshots](http://i.imgur.com/QSggN1G.jpg)
+
+We will be using the following applications in the I3 tutorials :
+
++ variety
 
 
 #Installation procedure

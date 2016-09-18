@@ -60,6 +60,7 @@ sudo apt-get install -y automake
 sudo apt-get install -y build-essential
 sudo apt-get install -y libtool
 sudo apt-get install -y xutils-dev xcb libxcb-composite0-dev
+sudo apt-get install -y doxygen
 
 #script 2
 sudo apt-get install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev 

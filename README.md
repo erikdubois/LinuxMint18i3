@@ -154,8 +154,6 @@ If you want the conky's to work you will have to run the installation script for
 
 	install-conky-software.sh
 
-The files of the conky's are normally already in the I3 folder. Just a backup here.
-
 
 # Step 7
 
@@ -233,12 +231,12 @@ This line in your config file you set the windows key or super key.
 
 Some commands working with the Mod Key (windows key)
 
-Mod4 + SHIFT + E  = to exit i3 and log back on with Cinnamon
-Mod4 + D  = dmenu
-Mod4 + SHIFT + D = j4_dmenu
-Mod4 + Enter = terminal
-Mod4 + SHIFT + Enter= nemo (file manager)
-Mod4 + SHIFT + Q = end current program (move mouse over it)
+Mod + SHIFT + E  = to exit i3 and log back on with Cinnamon
+Mod + D  = dmenu
+Mod + SHIFT + D = j4_dmenu
+Mod + Enter = terminal
+Mod + SHIFT + Enter= nemo (file manager)
+Mod + SHIFT + Q = end current program (move mouse over it)
 
 
 ##Assign section

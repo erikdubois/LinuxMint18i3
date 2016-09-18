@@ -388,7 +388,7 @@ bindsym $mod+u border none
 
 bar {
 	# put a hashtag in front of next line and you will get the standard conf
-	status_command i3status -c ~/.config/i3/i3status.conf
+	status_command i3status -c ~/.config/i3/.i3status.conf
 	height 25
     workspace_buttons yes
     

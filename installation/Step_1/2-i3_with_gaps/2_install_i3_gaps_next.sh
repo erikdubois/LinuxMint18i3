@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 #
 #                                       
 # MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
@@ -54,14 +54,10 @@
 #
 ##################################################################################################################
 
-rm -rf /tmp/Airblader
-
-# installing dependancies for i3 gap
-
-sudo apt install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev 
-sudo apt install -y libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
 
 # installing i3 gap
+
+rm -rf /tmp/Airblader
 
 git clone https://github.com/Airblader/i3.git /tmp/Airblader
 cd /tmp/Airblader

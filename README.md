@@ -233,10 +233,15 @@ This line in your config file you set the windows key or super key.
 Some commands working with the Mod Key (windows key)
 
 Mod + SHIFT + E  = to exit i3 and log back on with Cinnamon
+
 Mod + D  = dmenu
+
 Mod + SHIFT + D = j4_dmenu
+
 Mod + Enter = terminal
+
 Mod + SHIFT + Enter= nemo (file manager)
+
 Mod + SHIFT + Q = end current program (move mouse over it)
 
 
@@ -246,13 +251,21 @@ Remember the 10 possible screens in the bottom-left corner.
 I have positioned some programs on some specific desktops.
 
 assign [class="Firefox"]          → 1
+
 assign [class="sublime-text"]     → 2
+
 assign [class="sublime_text"]     → 2
+
 assign [class="Sublime_text"]     → 2
+
 assign [class="Vlc"]              → 7
+
 assign [class="Nemo"]             → 8
+
 assign [class="Geary"]            → 9
+
 assign [class="Evolution"]        → 9
+
 assign [class="Spotify"]          → 10
 
 Tip : if you use sublime-text. It gives us 'nag screens' to buy it. They will pop up in workspace 2 because of my setting. 

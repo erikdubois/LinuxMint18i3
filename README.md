@@ -128,7 +128,7 @@ You never logged in with I3.
 Some explanations
 
 + config is the most important file - here all the settings of I3 that can be changed
-+ i3status.conf is the configuration file for you bottom panel that can be changed
++ .i3status.conf is the configuration file for you bottom panel that can be changed
 + i3exit.sh is used to logoff, exit, reboot etc - no need to change this
 + compton.conf is telling the system to dim the windows that have no focus that can be changed
 + start-conkys.sh will start the two conky's present 

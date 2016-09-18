@@ -55,10 +55,10 @@
 ##################################################################################################################
 
 #https://github.com/enkore/j4-dmenu-desktop
-
-git clone https://github.com/enkore/j4-dmenu-desktop.git
+rm -rf /tmp/j4-dmenu-desktop
+git clone https://github.com/enkore/j4-dmenu-desktop.git /tmp/j4-dmenu-desktop
+cd /tmp/j4-dmenu-desktop
 sudo apt-get install cmake -y
-cd j4-dmenu-desktop
 cmake . &&  make  &&  sudo make install
 cd ..
 rm -rf j4-dmenu-desktop

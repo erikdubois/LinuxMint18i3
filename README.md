@@ -217,43 +217,54 @@ You can set your wallpaper with nitrogen also if variety does not prove to work.
 
 # Shortcuts to remember
 
+The best thing to do is : 
+
+	read the config file in the folder ~/.config/i3
+
+If in a hurry, you can always check the conky or this website.
+
+## Mod key
+
 You can set your mod key. I have set mine to the Windows Key
 
-This is windows key
-set $mod Mod4
+This line in your config file you set the windows key or super key.
+
+	set $mod Mod4
+
+Some commands working with the Mod Key (windows key)
 
 Mod4 + SHIFT + E  = to exit i3 and log back on with Cinnamon
 Mod4 + D  = dmenu
 Mod4 + SHIFT + D = j4_dmenu
 Mod4 + Enter = terminal
-Mod4 + SHIFT = nemo (file manager)
-Mod4 + SHIFT + Q = end current program
+Mod4 + SHIFT + Enter= nemo (file manager)
+Mod4 + SHIFT + Q = end current program (move mouse over it)
+
+
+##Assign section
 
 Remember the 10 possible screens in the bottom-left corner.
 I have positioned some programs on some specific desktops.
 
-Assign section
 assign [class="Firefox"]          → 1
-
 assign [class="sublime-text"]     → 2
-
 assign [class="sublime_text"]     → 2
-
 assign [class="Sublime_text"]     → 2
-
-assign [class="Thunar"]           → 8
-
+assign [class="Vlc"]              → 7
 assign [class="Nemo"]             → 8
-
 assign [class="Geary"]            → 9
-
+assign [class="Evolution"]        → 9
 assign [class="Spotify"]          → 10
 
+Tip : if you use sublime-text. It gives us 'nag screens' to buy it. They will pop up in workspace 2 because of my setting. 
+
+
+## Reload the config
 
 Mod4 + SHIFT + R = reset or rerun i3 if you change some code in the config file
 
 
-# Start up programs with CTRL + ALT + ...
+## Start up programs with CTRL + ALT + ...
 
 ALT = Mod1 for I3
 
@@ -292,7 +303,7 @@ Nemo will start on window 8.
 Spotify will start on any window... 
 There is a bug/issue we have to live with. Put your mouse on top of spotify and press
 	
-	mod (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
+	mod4 (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
 
 
 

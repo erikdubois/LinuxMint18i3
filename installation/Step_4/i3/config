@@ -173,7 +173,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec dmenu_run -fn 'NotoMonoRegular:bold:pixelsize=18' 
 
 # start alternative menu j4-dmenu based on desktop files in /usr/share/applications
-bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'DroidSansMono:bold:pixelsize=16' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#FFAF00'"
+bindsym $mod+shift+d exec j4-dmenu-desktop --dmenu="dmenu -fn 'NotoMonoRegular:bold:pixelsize=18' -nb '#fdf6e3' -nf '#586c75' -sf '#fdf6e3' -sb '#FFAF00'"
 
 # start up i3-dmenu-desktop
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
@@ -233,7 +233,6 @@ assign [class="sublime-text"]     → 2
 assign [class="sublime_text"]     → 2
 assign [class="Sublime_text"]     → 2
 assign [class="Vlc"]              → 7
-assign [class="Thunar"]           → 8
 assign [class="Nemo"]             → 8
 assign [class="Geary"]            → 9
 assign [class="Evolution"]        → 9
@@ -296,7 +295,7 @@ exec volti
 
 
 #workspace related applications (use --no-startup-id if needed)
-
+# put hashtag in front if you do not want one of them
 exec firefox
 exec subl
 #exec evolution

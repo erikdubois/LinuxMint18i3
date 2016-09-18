@@ -109,17 +109,17 @@ You have to copy/paste the content of the i3 folder into <b>~/.config/i3</b>.
 
 You can make this hidden folder in your home folder, if you somehow do not have it yet.
 
-<b>beware the hidden files !! Copy/paste all files (CTRL + H)</b>
+<b>Beware the hidden files !! Copy/paste all files (CTRL + H)</b>
  
  At this point there are no hidden files yet but there might be in the future.
 
 Some explanations
 
-+ config is the most important file - here all the settings of I3 can be changed
++ config is the most important file - here all the settings of I3 that can be changed
 + i3status.conf is the configuration file for you bottom panel that can be changed
 + i3exit.sh is used to logoff, exit, reboot etc - no need to change this
 + compton.conf is telling the system to dim the windows that have no focus that can be changed
-+ start-conkys.sh will start the two conky's present (not really needed)
++ start-conkys.sh will start the two conky's present 
 + system-overview will show process and memory
 + system-shortcuts will help you with the shortcuts
 
@@ -128,6 +128,7 @@ Some explanations
 # Step 5
 
 ## I3 is MADE for DUAL and more SCREENS
+
 
 The program xrandr will show you how your monitors are named.
 In the config file you will need to change the code.
@@ -141,7 +142,7 @@ Uncomment the ones you need. This is my setup.
 
 Use this code in your config or terminal (only once) to tell the system which monitor goes on the left.
 
-xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
+	xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 
 
 ##<b>Fix for Nemo or file manager of Linux Mint</b>

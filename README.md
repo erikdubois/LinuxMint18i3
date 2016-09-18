@@ -50,7 +50,7 @@ Folder <b>Installation</b> is the sequence of the installation procedure you can
 
 # Installation Procedure of I3
 
-Let us install I3 first. Go in the folder Installation. You will find folder that are to be run in sequence.
+Let us install I3 first. Go in the folder Installation. You will find folders that are to be run in sequence. The folders are named according to our titles.
 
 # Step 1
 
@@ -63,6 +63,38 @@ Next we will run a script to get I3 (version 4.12) with the possibilities to hav
 	install_i3_gaps_next.sh
 
 The added advantage is that we will have the <b>latest version of I3</b> as you can see on the [website](https://i3wm.org/).
+
+
+
+# Step 2
+
+We will install an extra menu to start applications. This is one is quite interesting as the menu is based on the .desktop files in your /usr/share/applications. Other menu's tend to show ALL programs. In linux this can be quite a long series.
+
+Run the script to get this extra [j4-desktop-dmenu](https://github.com/enkore/j4-dmenu-desktop).
+
+
+	j4-dmenu-desktop_install.sh
+
+
+
+# Step 3
+
+Now we will install software that is needed specifically for the use in I3.
+
+Run the script
+
+	install-extra-software.sh
+
+You will install
+
+- numlockx to enable the numeric key
+- feh will help changing the wallpapers from variety
+- lxappearance to change icons, themes and cursors
+- scrot to take a quick screenshot of your desktop
+- compton to enable some transparency
+- unclutter to get rid of the mouse icon if it is in the way
+- volti to have a panel icon to adjust sound volume
+
 
 
 

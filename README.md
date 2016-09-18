@@ -145,7 +145,7 @@ Use this code in your config or terminal (only once) to tell the system which mo
 	xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 
 
-##<b>Fix for Nemo or file manager of Linux Mint</b>
+##Fix for Nemo or file manager of Linux Mint
 
 If working with NEMO as file manager you will need to copy paste this line in a terminal or you will open
 a desktop together with nemo.

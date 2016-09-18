@@ -179,6 +179,24 @@ Use this code in your config or terminal (only once) to tell the system which mo
 	xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 
 
+
+
+# Step 8
+
+The terminal is a place you will be working a lot. I have choosen for terminator. In all distro's it is available and it provides the transparency of the background.
+
+These are my settings. Put them in this folder. Compare or copy/paste.
+
+	~/.config/terminator/config
+
+
+# Step 9
+
+These are all my config files or settings of a wide variety of applications.
+
+Not necessary to do.
+
+
 ##Fix for Nemo or file manager of Linux Mint
 
 If working with NEMO as file manager you will need to copy paste this line in a terminal or you will open
@@ -188,18 +206,12 @@ a desktop together with nemo.
 
 	gsettings set org.nemo.desktop show-desktop-icons false
 
+
 ## Nitrogen
 
 You can set your wallpaper with nitrogen also if variety does not prove to work.
 
 	sudo apt install nitrogen
-
-
-# Step 8
-
-These are all my config files or settings of a wide variety of applications.
-
-Not necessary to do.
 
 
 

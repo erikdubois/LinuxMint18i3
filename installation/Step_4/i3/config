@@ -9,6 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# Mod4 = windows key on keyboard or super key
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -387,8 +388,8 @@ bindsym $mod+u border none
 #####COLORS#####
 
 bar {
-
-	status_command i3status
+	# put a hashtag in front of next line and you will get the standard conf
+	status_command i3status -c ~/.config/i3/i3status.conf
 	height 25
     workspace_buttons yes
     

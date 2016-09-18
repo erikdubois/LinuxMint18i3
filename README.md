@@ -18,9 +18,9 @@ We will be using the following applications in the I3 tutorials :
 + variety
 
 
-#Installation procedure
+#Prerequisites
 
-First install Linux Mint 18 like you always would.
+First install Linux Mint 18 Cinnamon like you always would.
 
 Then update.
 
@@ -31,7 +31,7 @@ Upgrade your kernel if you want to.
 
 Get that out of the way. 
 
-Do get the code from github. Install git first
+Get the code from github. Install git first
 
 	sudo apt-get install git
 
@@ -39,12 +39,18 @@ Then
 
 	git clone https://github.com/erikdubois/i3-on-Linux-Mint-18-Cinnamon.git
 
-This folder your are downloading is my content of the hidden .i3 directory, where all files will reside.
+This folder, your are downloading, is all you will need to get I3 working <b>the easy way</b>.
+
+##Contents of the folder
+
+Folder <b>I3</b> are all the settings to get a working I3.
+
+Folder <b>Installation</b> is the sequence of the installation procedure you can follow till the last one or not.
 
 
-# Step 0
 
-Check what I3 is on the website https://i3wm.org.
+# Step 1
+
 
 
 You can copy/paste all of this in the hidden folder of .i3.

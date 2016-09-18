@@ -156,6 +156,8 @@ The files of the conky's are normally already in the I3 folder. Just a backup he
 
 # Step 7
 
+Nothing yet to share in the folder step 7.
+
 ## I3 is MADE for DUAL and more SCREENS
 
 
@@ -220,6 +222,11 @@ You can set your wallpaper with nitrogen also if variety does not prove to work.
 	sudo apt install nitrogen
 
 
+# Step 8
+
+These are all my config files or settings of a wide variety of applications.
+
+Not necessary to do.
 
 
 

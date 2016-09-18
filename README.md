@@ -313,3 +313,7 @@ Conky to help you with the basic information and the basic keyboard shortcuts
 ![Screenshots](http://i.imgur.com/irN98nN.jpg)
 
 
+Lxappearance to change icons, themes, ...
+
+
+![Screenshots](http://i.imgur.com/UcmfwmS.jpg)

@@ -41,11 +41,12 @@ Then
 
 This folder, your are downloading, is all you will need to get I3 working <b>the easy way</b>.
 
-##Contents of the folder
-
-Folder <b>I3</b> are all the settings to get a working I3.
+##Contents of the github
 
 Folder <b>Installation</b> is the sequence of the installation procedure you can follow till the last one or not.
+
+Folder <b>I3</b> are all the settings to get a working I3 and it is in the folder Step 4.
+
 
 
 # Installation Procedure of I3
@@ -91,79 +92,41 @@ You will install
 - feh will help changing the wallpapers from variety
 - lxappearance to change icons, themes and cursors
 - scrot to take a quick screenshot of your desktop
-- compton to enable some transparency
+- compton to enable some dimming of unfocused windows
 - unclutter to get rid of the mouse icon if it is in the way
 - volti to have a panel icon to adjust sound volume
 
 
 
 
+# Step 4
 
-# Step 2
+When you install i3 it will make an hidden folder in this location
 
-You can copy/paste all of this in the hidden folder of .config/i3.
+	~/.config/i3
 
-You can make a hidden folder in your home folder, if you do not yet have one.
+You have to copy/paste the content of the i3 folder into <b>~/.config/i3</b>.
+
+You can make this hidden folder in your home folder, if you somehow do not have it yet.
 
 <b>beware the hidden files !! Copy/paste all files (CTRL + H)</b>
+ 
+ At this point there are no hidden files yet but there might be in the future.
+
+Some explanations
+
++ config is the most important file - here all the settings of I3 can be changed
++ i3status.conf is the configuration file for you bottom panel that can be changed
++ i3exit.sh is used to logoff, exit, reboot etc - no need to change this
++ compton.conf is telling the system to dim the windows that have no focus that can be changed
++ start-conkys.sh will start the two conky's present
++ system-overview will show process and memory
++ system-shortcuts will help you with the shortcuts
 
 
-Go inside the folder installation/Step_1
-
-Run the script with the highest version number.
-
-You will install:
-
-- i3 basic system
-- menu to start programs
-- screenfetch to display general info of your computer
-- variety for wallpapers
-- terminator for terminal - more tweakable
-- unclutter to get the mouse out of the way
-- zsh - shell with lots of colours and themes
-- gimp already installed 
-- inkscape - vector drawing
-- firefox - already installed
-- adobe-flashplugin
-- transmission-gtk - for conky aurora
-- skype
-- hexchat already installed
-- vlc already installed
-- geary - mail client
-- lxappearance - choose icons and themes
-- nitrogen - wallpaper
-- feh - wallpapers
-- qt4-qtconfig - choose icons and themes for qt4
-- scrot - caputure picture
-- git for github
-- htop - analysis processes
-- wget - getting files of internet
-- curl - getting files of internet
-- sensord - read out heat and other sensors
-- sysstat - system statistics
-- glances - analysis processes
-- numlockx - num lock on or off
-- inxi - hardware info
-- dmidecode - information for conky aurora
-- hddtemp - harddisk temperature for conky aurora
-- net-tools - network tools
-- mlocate - find stuff on your computer anywhere
-- hardinfo - graphical way to see all hardware components
-- unetbootin - make bootable usb
-- extlinux
-- vnstat - statistics for network consumption
-- screenfetch - hardware info
-- kazam - already installed - making movies
-- install thunar if you like to batch rename files
-- catfish - graphical way to search everything
-- gnome-disk-utility - already installed
 
 
-Do not yet log off and log on into i3.
-Or you will see some errors.
-
-
-# Step 2
+# Step 5
 
 <b>Installation of an alternative to the i3 status bar</b>
 

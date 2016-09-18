@@ -54,8 +54,24 @@
 #
 ##################################################################################################################
 
+# dependancy on xcb-util-xrm
 
-sudo apt-get install conky -y
+# installing dependancies first
+
+sudo apt-get install -y autoconf
+sudo apt-get install -y automake
+sudo apt-get install -y build-essential
+sudo apt-get install -y libtool
+sudo apt-get install -y xutils-dev
+
+rm -rf /tmp/xcb-util-xrm
+git clone --recursive https://github.com/Airblader/xcb-util-xrm.git /tmp/xcb-util-xrm
+cd /tmp/xcb-util-xrm
+/tmp/xcb-util-xrm/git submodule update --init
+/tmp/xcb-util-xrm/autogen.sh --prefix=/usr
+make && sudo make install
+
+rm -rf /tmp/xcb-util-xrm
 
 echo
 echo

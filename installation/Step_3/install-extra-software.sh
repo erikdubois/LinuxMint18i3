@@ -78,3 +78,10 @@ sudo apt-get install -y volti
 
 # different terminal
 sudo apt-get install -y terminator
+
+echo
+echo
+echo "###############################"
+echo "All done"
+echo "###############################"
+sleep 5

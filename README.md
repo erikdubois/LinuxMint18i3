@@ -102,13 +102,15 @@ You will install
 
 # Step 4
 
-When you install i3 it will make an hidden folder in this location
+When you install i3 it will make an hidden folder in this location, once you login.
 
 	~/.config/i3
 
 You have to copy/paste the content of the i3 folder into <b>~/.config/i3</b>.
 
-You can make this hidden folder in your home folder, if you somehow do not have it yet.
+You have to make this folder yourself. It is normal that you do not have it.
+
+You never logged in with I3.
 
 <b>Beware the hidden files !! Copy/paste all files (CTRL + H)</b>
  
@@ -185,36 +187,6 @@ a desktop together with nemo.
 <b>Not necessary any more. But I leave it in in case it might be an issue for someone else.</b>
 
 	gsettings set org.nemo.desktop show-desktop-icons false
-
-
-
-
-## Making sure variety works 
-
-We have to change some of the settings in the files. 
-
-Go the file 
-
-~/.config/variety/scripts/set_wallpaper
-
-Change the code 
-
-	# i3-wm/Feh. Use Feh only for i3, as it may cause problems with Nautilus, (see bug https://bugs.launchpad.net/variety/+bug/1047083)
-	if [ "$XDG_CURRENT_DESKTOP" == "i3" ]; then
-   			feh --bg-fill "$WP" 2&gt; /dev/null
-	fi
-
-	into
-
-	
-	
-	# i3-wm/Feh. Use Feh only for i3, as it may cause problems with Nautilus, (see bug https://bugs.launchpad.net/variety/+bug/1047083)
-	if [ "$XDG_SESSION_DESKTOP" == "i3" ]; then
-   			feh --bg-fill "$WP" 2&gt; /dev/null
-	fi
-
-Check out the youtube movie if need be at 
-http://erikdubois.be/how-to-make-variety-work-in-i3-windows-manager-linux-mint-17-3/
 
 ## Nitrogen
 
@@ -297,6 +269,18 @@ So CTRL + ALT + f will start firefox. Change the shortcuts if you do not like th
 
 Log in by clicking the symbol in the top right of the login screen and choose i3.
 I am set to autologin. It will remember your preferences to log in next time. 
+
+
+# What will happen when you login
+
+Firefox will start on window 1.
+Sublime Text will start on window 2.
+Nemo will start on window 8.
+
+Spotify will start on any window... 
+There is a bug/issue we have to live with. Put your mouse on top of spotify and press
+	
+	mod (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
 
 
 

@@ -123,7 +123,7 @@ You never logged in with I3.
 
 <b>Beware the hidden files !! Copy/paste all files (CTRL + H)</b>
  
- At this point there are no hidden files yet but there might be in the future.
+ At this point we have one hidden file with the name .i3status.conf but there might be more in the future.
 
 Some explanations
 

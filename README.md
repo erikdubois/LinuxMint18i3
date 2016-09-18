@@ -192,6 +192,8 @@ http://erikdubois.be/how-to-make-variety-work-in-i3-windows-manager-linux-mint-1
 
 You can set your wallpaper with nitrogen also if variety does not prove to work.
 
+	sudo apt install nitrogen
+
 
 
 

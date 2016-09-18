@@ -51,7 +51,7 @@ Folder <b>I3</b> are all the settings to get a working I3 and it is in the folde
 
 # Installation Procedure of I3
 
-Let us install I3 first. Go in the folder Installation. You will find folders that are to be run in sequence. The folders are named according to our titles.
+Let us install I3 first. Go inside the folder <b>Installation</b>. You will find folders that are to be run in sequence. The folders are named according to our titles.
 
 # Step 1
 

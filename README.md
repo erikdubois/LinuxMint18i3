@@ -157,7 +157,7 @@ a desktop together with nemo.
 
 ## Change the looks
 
-use lxappearance to change icons, themes etc  ...
+use <b>lxappearance</b> to change icons, themes etc  ...
 Restart programs to see the changes.
 
 

@@ -6,7 +6,7 @@ conky.config = {
 	cpu_avg_samples = 2,
 	default_color = 'FFFFFF',
 	double_buffer = true,
-	font = 'Droid Sans:size=12',
+	font = 'Noto Mono:size=12:bold',
 	gap_x = 25,
 	gap_y = 50,
 	minimum_width = 250,
@@ -22,7 +22,8 @@ ${color2}open new terminal - ${color1}mod+Enter
 ${color2}kill focused - ${color1}mod+Shift+q
 ${color2}dmenu - ${color1}mod+d
 ${color2}j4 dmenu - ${color1}shift+mod+d
-${color2}File manager - ${color1}Ctrl+Alt+a
+${color2}File manager - ${color1}Ctrl+Alt+b
+${color2}Cinnamon Settings - ${color1}Ctrl+Alt+n
 ${color2}switch to workspace 1-10 - ${color1}mod+1-10
 ${color2}send to workspace 1-10 - ${color1}mod+Shift+1-10
 ${color2}navigate workspaces - ${color1}Ctrl+Alt+arrowkeys

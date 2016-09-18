@@ -145,9 +145,16 @@ The other file is a bit in the folder structure.
 Compare your settings or copy/paste to this location.
 
 
-
-
 # Step 6
+
+If you want the conky's to work you will have to run the installation script for the software.
+
+	install-conky-software.sh
+
+The files of the conky's are normally already in the I3 folder. Just a backup here.
+
+
+# Step 7
 
 ## I3 is MADE for DUAL and more SCREENS
 

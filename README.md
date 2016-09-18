@@ -304,12 +304,13 @@ I am set to autologin. It will remember your preferences to log in next time.
 # E N D   R E S U L T
 
 
-i3 with gaps
 
-![Screenshots](http://i.imgur.com/jTZGcrm.jpg)
+![Screenshots](http://i.imgur.com/5RZaVMg.jpg)
 
 
-![Screenshots](http://i.imgur.com/Eyd0R8F.png)
+Conky to help you with the basic information and the basic keyboard shortcuts
+
+![Screenshots](http://i.imgur.com/irN98nN.jpg)
 
 
 ![Screenshots](http://i.imgur.com/7a0027R.png)

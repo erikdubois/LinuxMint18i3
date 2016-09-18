@@ -313,10 +313,3 @@ Conky to help you with the basic information and the basic keyboard shortcuts
 ![Screenshots](http://i.imgur.com/irN98nN.jpg)
 
 
-![Screenshots](http://i.imgur.com/7a0027R.png)
-
-
-![Screenshots](http://i.imgur.com/QhRDssB.jpg)
-
-
-![Screenshots](http://i.imgur.com/CgorIqo.jpg)

@@ -1,6 +1,6 @@
 # Installing i3 on Linux Mint 18 Cinnamon
 
-I3 = improved tiling windows manager 
+I3 = [improved tiling windows manager](https://i3wm.org/)
 
 We start from an up-to-date Linux Mint 18 Cinnamon as described on 
 http://erikdubois.be.

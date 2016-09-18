@@ -204,15 +204,7 @@ These are all my config files or settings of a wide variety of applications.
 Not necessary to do.
 
 
-##Fix for Nemo or file manager of Linux Mint
-
-If working with NEMO as file manager you will need to copy paste this line in a terminal or you will open
-a desktop together with nemo.
-
-<b>Not necessary any more. But I leave it in in case it might be an issue for someone else.</b>
-
-	gsettings set org.nemo.desktop show-desktop-icons false
-
+# Extra info
 
 ## Nitrogen
 
@@ -303,14 +295,14 @@ I am set to autologin. It will remember your preferences to log in next time.
 
 # What will happen when you login
 
-Firefox will start on window 1.
-Sublime Text will start on window 2.
-Nemo will start on window 8.
+Firefox will start on workspace 1.
+Sublime Text will start on workspace 2.
+Nemo will start on workspace 8.
 
-Spotify will start on any window... 
+Spotify will start on any workspace... 
 There is a bug/issue we have to live with. Put your mouse on top of spotify and press
 	
-	mod4 (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
+	mod (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
 
 
 

@@ -263,7 +263,7 @@ So CTRL + ALT + f will start firefox. Change the shortcuts if you do not like th
 # You can stop here, log off and try-out I3
 
 Log in by clicking the symbol in the top right of the login screen and choose i3.
-I am set to autologin. It will remember your settings for next time. 
+I am set to autologin. It will remember your preferences to log in next time. 
 
 
 

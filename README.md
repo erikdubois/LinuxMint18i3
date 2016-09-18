@@ -48,19 +48,32 @@ Folder <b>I3</b> are all the settings to get a working I3.
 Folder <b>Installation</b> is the sequence of the installation procedure you can follow till the last one or not.
 
 
+# Installation Procedure of I3
+
+Let us install I3 first. Go in the folder Installation. You will find folder that are to be run in sequence.
 
 # Step 1
 
+First we will get I3 from the Linux Mint Repositories (version 4.11) by running the script
+
+	install_i3_version_4.11_from_repositories.sh
+
+Next we will run a script to get I3 (version 4.12) with the possibilities to have gaps between the windows by running
+
+	install_i3_gaps_next.sh
+
+The added advantage is that we will have the <b>latest version of I3</b> as you can see on the [website](https://i3wm.org/).
 
 
-You can copy/paste all of this in the hidden folder of .i3.
+
+
+# Step 2
+
+You can copy/paste all of this in the hidden folder of .config/i3.
 
 You can make a hidden folder in your home folder, if you do not yet have one.
 
 <b>beware the hidden files !! Copy/paste all files (CTRL + H)</b>
-
-
-# Step 1
 
 
 Go inside the folder installation/Step_1

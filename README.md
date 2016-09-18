@@ -124,8 +124,30 @@ Some explanations
 + system-shortcuts will help you with the shortcuts
 
 
-
 # Step 5
+
+## Change the looks
+
+Use <b>lxappearance</b> to change icons, themes etc  ...
+Restart programs to see the changes.
+
+
+In this folder you will find two files. If you have issues changing the icons etc you can check out my settings of these files
+
+This file should be in your home directory as a hidden file. Compare or copy/paste.
+
+	.gtkrc-2.0
+
+The other file is a bit in the folder structure.
+
+	~/.config/gtk-3.0/settings.ini
+
+Compare your settings or copy/paste to this location.
+
+
+
+
+# Step 6
 
 ## I3 is MADE for DUAL and more SCREENS
 
@@ -155,10 +177,6 @@ a desktop together with nemo.
 	gsettings set org.nemo.desktop show-desktop-icons false
 
 
-## Change the looks
-
-use <b>lxappearance</b> to change icons, themes etc  ...
-Restart programs to see the changes.
 
 
 ## Making sure variety works 

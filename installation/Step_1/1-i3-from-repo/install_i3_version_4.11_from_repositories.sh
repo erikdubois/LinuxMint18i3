@@ -1,5 +1,4 @@
-#!/bin/bash 
-#======================================================================================
+#!/bin/bash
 #
 #                                       
 # MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
@@ -21,28 +20,39 @@
 #                                      
 #
 #
-#======================================================================================
-
-#======================================================================================
-#                               I3 IMPROVED TILING
+##################################################################################################################
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+##################################################################################################################
 # 
-# Author  : Erik Dubois at http://www.erikdubois.be
-# License : Distributed under the terms of GNU GPL version 2 or later
+# More from Erik Dubois
+#
+# Aurora Conky
+# at http://sourceforge.net/projects/auroraconkytheme/
+# Explanation on the use of this theme can be found at 
+# http://erikdubois.be/category/linux/aurora-conky/
 # 
-# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
-#======================================================================================
-#                               
-# Interesting Sources : 
+# Aureola Conky
+# Collections of nice conky's with lua syntax
+# https://github.com/erikdubois/Aureola
 #
-# https://i3wm.org/docs/userguide.html
-# https://github.com/Arakis/autologin-on-boot
-# http://www.linuxveda.com/2013/04/02/how-to-install-and-configure-hp-printer-in-arch-linux/
+# Sardi icons
+# Many different styles of icons from colourfull, monochrome, white, circle
+# https://sourceforge.net/projects/sardi/
 #
-#======================================================================================
-
-
-
-# Made to be installed on a Linux Mint 18 (cinnamon in my example) 
+# Super Ultra Flat Numix Remix
+# Colourfull and playfull icons
+# https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+#
+# Check out the github - many more scripts for automatic installation of Linux Systems.
+#
+#
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#
+##################################################################################################################
 
 
 

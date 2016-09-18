@@ -69,7 +69,7 @@ The added advantage is that we will have the <b>latest version of I3</b> as you 
 
 # Step 2
 
-We will install an extra menu to start applications. This is one is quite interesting as the menu is based on the .desktop files in your /usr/share/applications. Other menu's tend to show ALL programs. In linux this can be quite a long series.
+We will install an extra menu to start applications. This menu is quite interesting as the menu is based on the .desktop files in your /usr/share/applications. Other menu's tend to show ALL programs. In linux this can be quite a long series.
 
 Run the script to get this extra [j4-desktop-dmenu](https://github.com/enkore/j4-dmenu-desktop).
 
@@ -95,6 +95,7 @@ You will install
 - compton to enable some dimming of unfocused windows
 - unclutter to get rid of the mouse icon if it is in the way
 - volti to have a panel icon to adjust sound volume
+- terminator - different terminal you can fine-tune in look
 
 
 
@@ -138,7 +139,7 @@ This file should be in your home directory as a hidden file. Compare or copy/pas
 
 	.gtkrc-2.0
 
-The other file is a bit in the folder structure.
+The other file is a bit deeper in the folder structure.
 
 	~/.config/gtk-3.0/settings.ini
 

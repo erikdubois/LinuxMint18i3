@@ -76,4 +76,5 @@ sudo apt-get install -y unclutter
 # panel icon for sound
 sudo apt-get install -y volti
 
-
+# different terminal
+sudo apt-get install -y terminator

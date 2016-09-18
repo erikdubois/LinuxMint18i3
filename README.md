@@ -58,7 +58,7 @@ First we will get I3 from the Linux Mint Repositories (version 4.11) by running 
 
 	install_i3_version_4.11_from_repositories.sh
 
-Next we will run a script to get I3 (version 4.12) with the possibilities to have gaps between the windows by running
+Next we will run a script to get I3 (version 4.12) with the possibilities to have [gaps between the windows](https://github.com/Airblader/i3) by running
 
 	install_i3_gaps_next.sh
 

@@ -190,7 +190,7 @@ Use this code in your config or terminal (only once) to tell the system which mo
 
 # Step 8
 
-The terminal is a place you will be working a lot. I have choosen for terminator. In all distro's it is available and it provides the transparency of the background.
+The terminal is a place you will be working a lot. I have terminator as terminal. In all distro's it is available and it provides transparency of the background so we can look at the wallpaper provided by variety.
 
 These are my settings. Put them in this folder. Compare or copy/paste.
 

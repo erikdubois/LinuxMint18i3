@@ -316,10 +316,9 @@ bindsym control+mod1+e exec evolution
 bindsym control+mod1+s exec spotify
 bindsym control+mod1+t exec subl
 bindsym control+mod1+b exec nemo --no-desktop
-bindsym control+mod1+c exec catfish
 bindsym control+mod1+m exec gnome-system-monitor
 
-#Filemanagers
+#Filemanager
 bindsym $mod+Shift+Return exec nemo --no-desktop
 
 # cinnamon settings

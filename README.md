@@ -236,20 +236,27 @@ assign [class="Spotify"]          → 10
 Mod4 + SHIFT + R = reset or rerun i3 if you change some code in the config file
 
 
-# Start up programs with ALT + CTRL + ...
-mod1 = ALT
+# Start up programs with CTRL + ALT + ...
 
-bindsym control+mod1+f exec firefox 
+ALT = Mod1 for I3
 
-bindsym control+mod1+g exec geary
+So CTRL + ALT + f will start firefox. Change the shortcuts if you do not like them in the config file.
 
-bindsym control+mod1+s exec spotify
+	bindsym control+Mod1+f exec firefox 
 
-bindsym control+mod1+t exec subl
+	bindsym control+Mod1+g exec geary
 
-bindsym control+mod1+b exec nemo --no-desktop
+	bindsym control+Mod1+e exec evolution
 
-bindsym control+mod1+c exec catfish
+	bindsym control+Mod1+s exec spotify
+
+	bindsym control+Mod1+t exec subl
+
+	bindsym control+Mod1+b exec nemo --no-desktop
+
+	bindsym control+Mod1+n exec cinnamon-settings
+
+	bindsym control+mod1+m exec gnome-system-monitor
 
 
 

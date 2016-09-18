@@ -54,16 +54,17 @@
 #
 ##################################################################################################################
 
-# dependancy on xcb-util-xrm
+# script 1
+sudo apt-get install -y autoconf
+sudo apt-get install -y automake
+sudo apt-get install -y build-essential
+sudo apt-get install -y libtool
+sudo apt-get install -y xutils-dev xcb libxcb-composite0-dev
 
-rm -rf /tmp/xcb-util-xrm
-git clone --recursive https://github.com/Airblader/xcb-util-xrm.git /tmp/xcb-util-xrm
-cd /tmp/xcb-util-xrm
-git submodule update --init
-sh /tmp/xcb-util-xrm/autogen.sh --prefix=/usr
-make && sudo make install
+#script 2
+sudo apt-get install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev 
+sudo apt-get install -y libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
 
-rm -rf /tmp/xcb-util-xrm
 
 echo
 echo

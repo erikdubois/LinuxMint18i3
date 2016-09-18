@@ -150,9 +150,9 @@ Use this code in your config or terminal (only once) to tell the system which mo
 If working with NEMO as file manager you will need to copy paste this line in a terminal or you will open
 a desktop together with nemo.
 
-Not necessary any more. But I leave it in in case it might be an issue for someone else.
+<b>Not necessary any more. But I leave it in in case it might be an issue for someone else.</b>
 
-gsettings set org.nemo.desktop show-desktop-icons false
+	gsettings set org.nemo.desktop show-desktop-icons false
 
 
 ## Change the looks

@@ -119,54 +119,48 @@ Some explanations
 + i3status.conf is the configuration file for you bottom panel that can be changed
 + i3exit.sh is used to logoff, exit, reboot etc - no need to change this
 + compton.conf is telling the system to dim the windows that have no focus that can be changed
-+ start-conkys.sh will start the two conky's present
++ start-conkys.sh will start the two conky's present (not really needed)
 + system-overview will show process and memory
 + system-shortcuts will help you with the shortcuts
 
 
 
-
 # Step 5
 
-<b>Installation of an alternative to the i3 status bar</b>
+## I3 is MADE for DUAL and more SCREENS
 
-Go inside the folder installation/Step_2/i3blocks
-Start compile-source-code-for-i3blocks.sh in a terminal
+The program xrandr will show you how your monitors are named.
+In the config file you will need to change the code.
 
-<b>Awesome Font</b>
+Uncomment the ones you need. This is my setup.
 
-Go inside the folder installation/Step_2/font
-Install also the font since one of the "letters" is used to make the bottom bar nicer.
-Double-click the font and install in linux mint.
 
-<b>Making menu bigger and as such better readable</b>
+	set $firstMonitor DVI-I-1
 
-Go inside the folder installation/Step_2/dmenu larger font
-Read the document and do these steps in a terminal.
+	set $secondMonitor DVI-I-2
 
-<b>Installing a less cluttered menu</b>
+Use this code in your config or terminal (only once) to tell the system which monitor goes on the left.
 
-Go inside the folder installation/Step_2/j4_dmenu_desktop
-Run j4-dmenu-desktop_install.sh
-This will provide with a better menu selection.
-Activated with WIN + SHIFT + D  - called Linux Mint Desktop
-(Normal menu is WIN + D - called  Linux Mint All Programs)
+xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 
-<b>Fix for Nemo or file manager of Linux Mint</b>
+
+##<b>Fix for Nemo or file manager of Linux Mint</b>
 
 If working with NEMO as file manager you will need to copy paste this line in a terminal or you will open
 a desktop together with nemo.
 
+Not necessary any more. But I leave it in in case it might be an issue for someone else.
+
 gsettings set org.nemo.desktop show-desktop-icons false
 
 
-# Change the looks
+## Change the looks
 
-use lxappearance and qtconfig-qt4 to change icons, themes etc  ...
+use lxappearance to change icons, themes etc  ...
 Restart programs to see the changes.
 
 
-# Making sure variety works 
+## Making sure variety works 
 
 We have to change some of the settings in the files. 
 
@@ -193,9 +187,12 @@ Change the code
 Check out the youtube movie if need be at 
 http://erikdubois.be/how-to-make-variety-work-in-i3-windows-manager-linux-mint-17-3/
 
-# Nitrogen
+## Nitrogen
 
 You can set your wallpaper with nitrogen also if variety does not prove to work.
+
+
+
 
 
 # Shortcuts to remember
@@ -205,10 +202,11 @@ You can set your mod key. I have set mine to the Windows Key
 This is windows key
 set $mod Mod4
 
-Mod4 + E  = to exit i3 and log back on with Cinnamon
+Mod4 + SHIFT + E  = to exit i3 and log back on with Cinnamon
 Mod4 + D  = dmenu
 Mod4 + SHIFT + D = j4_dmenu
 Mod4 + Enter = terminal
+Mod4 + SHIFT = nemo (file manager)
 Mod4 + SHIFT + Q = end current program
 
 Remember the 10 possible screens in the bottom-left corner.
@@ -252,50 +250,12 @@ bindsym control+mod1+c exec catfish
 
 
 
-# You can stop here and log off 
-# Log in by clicking the wheel and choosing i3
+# You can stop here, log off and try-out I3
+
+Log in by clicking the symbol in the top right of the login screen and choose i3.
+I am set to autologin. It will remember your settings for next time. 
 
 
-
-# Step 3
-
-Optional I3 not from Ubuntu sources but from Github
-
-1/1/2016 Ubuntu/Linux mint 18 is at version 4.7.2-1
-Githubs version is 4.11 !!!
-
-Some bugs have been fixed and extra features have been added.
-
-Go inside the folder installation/Step_3/i3_upgraden_from_github
-Run compile_github_i3.sh
-
-
-# Step 4
-
-Optional I3 next gap
-
-I have learned of this 'spin-off' and I like the visual aspect of it and I still have enough room on my screens to do the work efficiently.
-You can read more on their github site.
-
-https://github.com/Airblader/i3/tree/gaps-next
-
-Go inside the folder installation/Step_x/i3 with gaps
-
-# Working with two monitors
-
-The program xrandr will show you how your monitors are named.
-In the config file you will need to change the code.
-
-Uncomment the ones you need
-
-
-set $firstMonitor DVI-I-1
-
-set $secondMonitor DVI-I-2
-
-Use this code in your config or terminal (only once) to tell the system which monitor goes on the left.
-
-xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
 
 
 

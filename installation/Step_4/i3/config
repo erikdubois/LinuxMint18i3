@@ -314,7 +314,7 @@ exec firefox
 exec subl
 #exec evolution
 exec spotify 
-exec nemo
+exec nemo --no-desktop
 exec ~/.config/i3/start-conkys.sh
 
 #Popups during fullscreen mode
@@ -333,7 +333,7 @@ bindsym control+mod1+m exec gnome-system-monitor
 bindsym control+shift+Escape exec gnome-system-monitor
 
 #Filemanager
-bindsym $mod+Shift+Return exec nemo
+bindsym $mod+Shift+Return exec nemo --no-desktop
 
 # Cinnamon settings
 bindsym control+mod1+n exec cinnamon-settings
@@ -428,8 +428,6 @@ client.focused          #4A4A4A #4A4A4A #e5e5e5 #4A4A4A
 client.unfocused        #222222 #222222 #aaaaaa #222222
 client.focused_inactive #222222 #222222 #a9a9a9 #222222
 client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
-
-
 
 
 

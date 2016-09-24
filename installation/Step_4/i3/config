@@ -253,6 +253,8 @@ assign [class="Nemo"]             → 8
 assign [class="Geary"]            → 9
 assign [class="Evolution"]        → 9
 assign [class="Spotify"]          → 10
+#fix for spotify not moving to workspace 10
+for_window [class="Spotify"] move to workspace 10
 
 for_window [class="Firefox"] focus
 

@@ -438,7 +438,7 @@ bar {
     # another way to provide text in the statusbar
     # step 10 of https://github.com/erikdubois/i3-on-Linux-Mint-18-Cinnamon/tree/master/installation
     # put hastag in front if not installed
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    # status_command i3blocks -c ~/.config/i3/i3blocks.conf
 
     # You can also replace the istatus bar with a conky
     # be sure to install conky
@@ -447,7 +447,7 @@ bar {
     # start-conky-i3statusbar.sh is started and conky will follow
     # documentation : https://i3wm.org/docs/user-contributed/conky-i3bar.html
     # conky configuration is in conky-i3statusbar
-    # status_command ~/.config/i3/start-conky-i3statusbar.sh
+    status_command ~/.config/i3/start-conky-i3statusbar.sh
 
 
 

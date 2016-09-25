@@ -74,7 +74,8 @@ sudo apt-get install -y compton
 sudo apt-get install -y unclutter
 
 # panel icon for sound
-sudo apt-get install -y volti
+# sudo apt-get install -y volti
+sudo apt-get install  -y pasystray
 
 # different terminal
 sudo apt-get install -y terminator

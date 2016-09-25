@@ -137,8 +137,8 @@ Some explanations
 + i3exit.sh is used to logoff, exit, reboot etc - no need to change this
 + compton.conf is telling the system to dim the windows that have no focus that can be changed
 + start-conkys.sh will start the two conky's present 
-+ system-overview will show process and memory
-+ system-shortcuts will help you with the shortcuts
++ system-overview conky will show process and memory
++ system-shortcuts conky will help you with the shortcuts
 
 
 # Step 5

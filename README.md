@@ -318,7 +318,7 @@ There is a bug/issue we have to live with. Put your mouse on top of spotify and 
 	mod (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
 
 
-In the mean time I have a fix for spotifyin the config.
+In the mean time I have a fix for spotify in the config.
 
 	#fix for spotify not moving to workspace 10
 	for_window [class="Spotify"] move to workspace 10

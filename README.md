@@ -169,6 +169,7 @@ If you want the conky's to work you will have to run the installation script for
 
 	install-conky-software.sh
 
+If you want to have a status bar based on a conky (step 10) you will need this too.
 
 # Step 7
 

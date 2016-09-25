@@ -63,6 +63,11 @@ First we will get I3 from the Linux Mint Repositories (version 4.11) by running 
 
 ###Folder 2-i3_with_gaps
 
+Install first the dependencies.
+
+	0_install_dependencies_for_both_scripts.sh
+
+
 Then we need to run a script to install a xcb-util-xrm. This package is not yet included in the repositories at mid september 2016. So we compile it ourselves. In the future this can be done easier if it is in the repo's.
 
 	1_install_xcb-util-xrm.sh

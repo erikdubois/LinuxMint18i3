@@ -109,6 +109,7 @@ You will install
 - compton to enable some dimming of unfocused windows
 - unclutter to get rid of the mouse icon if it is in the way
 - volti to have a panel icon to adjust sound volume
+- traded volti in for pasystray to change the volume due to the bluetooth headset
 - terminator - different terminal you can fine-tune in look
 
 

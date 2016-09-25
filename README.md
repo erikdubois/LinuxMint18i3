@@ -213,7 +213,7 @@ Not necessary to do.
 
 ## Nitrogen
 
-You can set your wallpaper with nitrogen also if variety does not prove to work.
+You can set your wallpaper with nitrogen also if variety (or feh) does not prove to work.
 
 	sudo apt install nitrogen
 

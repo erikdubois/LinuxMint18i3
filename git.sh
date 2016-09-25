@@ -88,7 +88,9 @@ if [ -f linux* ]; then
     exit 0
 fi
 
+# checking if I have the latest files from github
 
+git pull
 
 # Below command will backup everything inside the project folder
 git add --all .

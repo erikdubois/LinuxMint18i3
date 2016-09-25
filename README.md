@@ -318,7 +318,10 @@ There is a bug/issue we have to live with. Put your mouse on top of spotify and 
 	mod (i.e.windows or super) and SHIFT and 0 to move it to window 10 for example
 
 
+In the mean time I have a fix for spotifyin the config.
 
+	#fix for spotify not moving to workspace 10
+	for_window [class="Spotify"] move to workspace 10
 
 
 # E N D   R E S U L T
@@ -366,7 +369,6 @@ https://github.com/vivien/i3blocks as well
 
 An alternative to libnotify. Sends messages to the user. Next song etc..
 You can set the look via dunstrc file.
-
 
 
 ![Screenshots](http://i.imgur.com/SVrdzsh.jpg)

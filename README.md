@@ -337,3 +337,36 @@ Lxappearance to change icons, themes, ...
 
 
 ![Screenshots](http://i.imgur.com/UcmfwmS.jpg)
+
+
+# Step 10 for the never satisfied and always learning or the die hards.
+
+This is the standard i3statusbar but already personalised.
+
+![Screenshots](http://i.imgur.com/Xz1Q0ss.jpg)
+
+
+## Conky folder
+
+You can have a conky instead of the standard i3statusbar.
+
+
+![Screenshots](http://i.imgur.com/ogYQLaV.jpg)
+
+
+## i3 blocks
+
+You can have other information in your i3statusbar. You can use i3 blocks from
+https://github.com/vivien/i3blocks as well
+
+![Screenshots](http://i.imgur.com/JExirXa.jpg)
+
+
+## Dunst
+
+An alternative to libnotify. Sends messages to the user. Next song etc..
+You can set the look via dunstrc file.
+
+
+
+

@@ -353,6 +353,7 @@ exec spotify
 for_window [class="Spotify"] focus
 exec nemo --no-desktop
 exec ~/.config/i3/start-conkys.sh
+#exec dunst -config ~/.config/i3/dunstrc
 
 
 ################### SHORTCUTS APPLICATIONS ######################

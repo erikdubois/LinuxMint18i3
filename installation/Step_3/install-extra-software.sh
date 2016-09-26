@@ -75,7 +75,7 @@ sudo apt-get install -y unclutter
 
 # panel icon for sound
 # sudo apt-get install -y volti
-sudo apt-get install  -y pasystray
+sudo apt-get install  -y pasystray paman paprefs pavumeter pulseaudio-module-zeroconf
 
 # different terminal
 sudo apt-get install -y terminator

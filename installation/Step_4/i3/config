@@ -362,8 +362,8 @@ exec ~/.config/i3/start-conkys.sh
 bindsym $mod+Shift+Return exec nemo --no-desktop; workspace 8;focus
 bindsym control+mod1+f exec firefox;workspace 1; focus
 bindsym $mod+F1 exec firefox;workspace 1;focus
-bindsym control+mod1+w exec subl3;workspace 2;focus
-bindsym $mod+F2 exec subl3;workspace 2;focus
+bindsym control+mod1+w exec subl;workspace 2;focus
+bindsym $mod+F2 exec subl;workspace 2;focus
 bindsym control+mod1+i exec inkscape;workspace 3;focus
 bindsym $mod+F3 exec inkscape;workspace 3;focus
 bindsym control+mod1+g exec gimp;workspace 4;focus

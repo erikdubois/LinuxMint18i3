@@ -18,7 +18,7 @@ We will be using the following applications in the I3 tutorials :
 + variety
 
 
-#Prerequisites
+# Prerequisites
 
 First install Linux Mint 18 Cinnamon like you always would.
 
@@ -41,7 +41,7 @@ Then
 
 This folder, your are downloading, is all you will need to get I3 working <b>the easy way</b>.
 
-##Contents of the github
+## Contents of the github
 
 Folder <b>Installation</b> is the sequence of the installation procedure you can follow till the last one or not.
 
@@ -55,13 +55,13 @@ Let us install I3 first. Go inside the folder <b>Installation</b>. You will find
 
 # Step 1
 
-###Folder 1-i3-from-repo
+### Folder 1-i3-from-repo
 
 First we will get I3 from the Linux Mint Repositories (version 4.11) by running the script
 
 	install_i3_version_4.11_from_repositories.sh
 
-###Folder 2-i3_with_gaps
+### Folder 2-i3_with_gaps
 
 Install first the dependencies.
 
@@ -254,7 +254,7 @@ Mod + SHIFT + Enter= nemo (file manager)
 Mod + SHIFT + Q = end current program (move mouse over it)
 
 
-##Assign section
+## Assign section
 
 Remember the 10 possible screens in the bottom-left corner.
 I have positioned some programs on some specific desktops.
@@ -386,7 +386,7 @@ You can set the look via dunstrc file.
 # F  A  Q
 --------------------
 
-#What can you do if the script does not execute?
+# What can you do if the script does not execute?
 
 Since I sometimes forget to make the script executable, I include here what you can do to solve that.
 
@@ -411,7 +411,7 @@ Or you can follow these steps
 
 
 -------------------------------------------------
-#But that is the fun in Linux.
+# But that is the fun in Linux.
 
 You can do whatever <b>Y O U</b> want.
 
